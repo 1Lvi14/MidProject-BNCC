@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'poppins', 'sans-serif'
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, alpha);
+    padding: 25px;
+}
+
+nav .navbar {
+    width: fit-content;
+    margin: auto;
+}
+
+nav .navbar ul {
+    display: flex;
+}
+
+nav .navbar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav .navbar li a {
+    font-size: 20px;
+    color: bisque;
+    text-decoration: none;
+}
+
+nav .navbar li a:hover {
+    border-radius: 12px;
+    padding: 5px;
+    background-color: bisque;
+    color: black;
+    text-decoration: line-through;
+}
+
+/* Home */
+.home {
+    background-image: url(Media/home-bg.jpg);
+    width: 100%;
+    height: 110vh;
+    background-position: 10px -65px;
+    background-size: cover;
+}
+
+.home .home-isi {
+    width: 40%;
+    padding: 70px 20px 20px;
+    box-sizing: border-box;
+}
+
+.home .home-isi h1 {
+    margin-bottom: 15px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.home .home-isi p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 20px;
+}
+
+.home .home-isi .home-input {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.home .home-isi .home-input span {
+    color: white;
+}
+
+.home .home-isi .home-input button {
+    background-color: #865439;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 6.5px;
+    right: 10px;
+}
+
+/* About */
+.about {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #423f3e;
+}
+
+.about .about-kiri {
+    padding: 20px;
+    width: 50%;
+    float: left;
+}
+
+.about .about-kiri h3 {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.about .about-kiri span {
+    color: #865439;
+}
+
+.about .about-kiri p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about .about-kanan {
+    width: 50%;
+    float: left;
+}
+
+.about .about-kanan img {
+    width: 100%;
+    height: 400px;
+    /* fungsinya sama kayak background-size: cover; */
+    object-fit: cover;
+}
+
+.clear {
+    clear: left;
+}
+
+/* Menu */
+.menu {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 80px 20px 20px;
+}
+
+.menu .card {
+    width: 300px;
+    height: 450px;
+    background-color: #cdbba7;
+    border-radius: 15px;
+    float: left;
+    margin: 0 34.5px;
+}
+
+.menu .card .card-atas1 {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.menu .card .card-atas1 img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.menu .card .card-atas2 {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.menu .card .card-atas2 img {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.menu .card .card-atas3 {
+    width: 100%;
+    height: 225px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.menu .card .card-atas3 img {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.menu .card .card-atas4 {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.menu .card .card-atas4 img {
+    width: 100%;
+    transform: scale(1.3);
+    padding-top: 35px;
+    margin-left: -35px;
+}
+
+.menu .card .card-bawah {
+    padding: 50px 20px 20px;
+}
+
+.menu .card .card-bawah h4 {
+    font-size: 22px;
+}
+
+.menu .card .card-bawah p {
+    font-size: 15px;
+}
+
+.menu .card .card-bawah button {
+    background-color: #b85c38;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* Contact Us */
+.contact {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 120px 40px 40px;
+}
+
+.contact h4 {
+    width: fit-content;
+    margin: auto;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contact h4 span {
+    color: #b85c38;
+}
+
+.contact form {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact .labels {
+    display: block;
+}
+
+.contact input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+/* outline merupakan property pada input 
+yang diaktifkan saat kita klik properti 
+input tersebut */
+
+.contact .check {
+    width: fit-content;
+    display: inline;
+}
+
+.contact textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #b85c38;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-top: 15px;
+}
