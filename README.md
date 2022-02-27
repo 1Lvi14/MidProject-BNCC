@@ -9,4 +9,4 @@ Folder that named "Media" contain images that I used to design this web.
 ~ Font ~
 Folder that named "Font" contain font that I used to design this web.
 
-Notes: this website is ONLY for 1620 x 720 screen.
+Notes: this website is ONLY available 1620 x 720 screen.
